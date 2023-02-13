@@ -1,7 +1,8 @@
 # NeovimConfiguration
 ## Description
 This is my neovim configuration file.
-Before use, please ensure that `gcc` and `git` are installed,and then you need to execute the following command to import the configuration file.
+Before use, please ensure that `gcc` and `git` are installed.Your terminal needs to support `Nerd Font`.
+And then can execute the following command to import the configuration file.
 
 ```shell
 cp -r nvim/* ~/.config/nvim/
