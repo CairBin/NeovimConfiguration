@@ -1,6 +1,11 @@
 # NeovimConfiguration
 ## Description
 This is my neovim configuration file.
+Before use, please ensure that `gcc` and `git` are installed,and then you need to execute the following command to import the configuration file.
+
+```shell
+cp -r nvim/* ~/.config/nvim/
+```
 
 ## Keymap
 Some cases are mapped in `lua/core/keymap.lua`.Only cases modified by individuals are shown here.Please refer to the repository documentation for plugin cases.
