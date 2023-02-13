@@ -1,7 +1,21 @@
 # NeovimConfiguration
 ## Description
-This is my neovim configure file
+This is my neovim configuration file.
 
+## Keymap
+Some cases are mapped in `lua/core/keymap.lua`.Only cases modified by individuals are shown here.Please refer to the repository documentation for plugin cases.
+
+|Key|Mode|Description|
+|-|-|-|
+|Space| |Leader key|
+|Shift + j|View|Move the selected rows up|
+|Shift + k|View|Move the selected rows down|
+|Space + sv|Normal|Add a new window horizontally(Add a vertical window)|
+|Space + sh|Normal|Add a new window vertically(Add a horizontal window)|
+|Space + nh|Normal|Cancel the highlight when searching|
+|Space + e|Normal|Open or close the directory tree|
+|Ctrl + Shift + h|Normal|Switch to the left tag|
+|Ctrl + Shift + l|Normal|Switch to the right tag|
 ## Plugins
 
 ### Theme
@@ -27,6 +41,7 @@ You must install `nvim-treesitter`,if you use `nvim-ts-rainbow`.
 
 * [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 * [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) -- Icons (require)
+* [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 ### LSP
 * [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)

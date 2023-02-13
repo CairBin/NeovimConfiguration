@@ -29,6 +29,7 @@ return require('packer').startup(function(use)
     'nvim-tree/nvim-tree.lua', -- File tree
     requires = {'nvim-tree/nvim-web-devicons',} -- File tree icons
   }
+  use 'christoomey/vim-tmux-navigator' -- Switch window
   use{    -- LSP
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',
