@@ -19,6 +19,8 @@ Some cases are mapped in `lua/core/keymap.lua`.Only cases modified by individual
 |Space + sh|Normal|Add a new window vertically(Add a horizontal window)|
 |Space + nh|Normal|Cancel the highlight when searching|
 |Space + e|Normal|Open or close the directory tree|
+|Space + ff|Normal|Retrieve file names matching keywords|
+|Space + fg|Normal|Retrieve contents matching keywords|
 |Ctrl + Shift + h|Normal|Switch to the left tag|
 |Ctrl + Shift + l|Normal|Switch to the right tag|
 ## Plugins
