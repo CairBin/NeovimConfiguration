@@ -29,7 +29,7 @@ return require('packer').startup(function(use)
     'nvim-tree/nvim-tree.lua', -- File tree
     requires = {'nvim-tree/nvim-web-devicons',} -- File tree icons
   }
-  use 'christoomey/vim-tmux-navigator' -- Switch window
+  use 'christoomey/vim-tmux-navigator'
   use{    -- LSP
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',
@@ -42,6 +42,11 @@ return require('packer').startup(function(use)
   use "saadparwaiz1/cmp_luasnip"
   use "rafamadriz/friendly-snippets"
   use "hrsh7th/cmp-path" -- File path imperfection
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-cmdline"
+  use "hrsh7th/cmp-vsnip"
+  use "hrsh7th/vim-vsnip"
+  use "onsails/lspkind-nvim"
   
   use "numToStr/Comment.nvim"
   use "windwp/nvim-autopairs"
