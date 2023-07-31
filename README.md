@@ -5,8 +5,18 @@ Before use, please ensure that `gcc` and `git` are installed.Your terminal needs
 And then can execute the following command to import the configuration file.
 
 ```shell
-cp -r nvim/* ~/.config/nvim/
+git clone https://github.com/CairBin/NeovimConfiguration.git
+mkdir ~/.config/nvim
+cd NeovimConfiguration && cp -r nvim/* ~/.config/nvim/
 ```
+
+## Tips
+
+In some regions, you may need to set up a terminal proxy to install plugins successfully.
+You can execute the command `:PackerInstall` in neovim to install plugins manually.
+Besides, if you encounter the Mason's error message, please check its logs. The vast majority of cases are caused by the lack of some tools in your computer. For example, if dotnet LSP cannot be installed, it is likely due to a lack of its JDK.
+
+
 
 ## Keymap
 Some cases are mapped in `lua/core/keymap.lua`.Only cases modified by individuals are shown here.Please refer to the repository documentation for plugin cases.
