@@ -14,7 +14,7 @@ cd NeovimConfiguration && cp -r nvim/* ~/.config/nvim/
 
 In some regions, you may need to set up a terminal proxy to install plugins successfully.
 You can execute the command `:PackerInstall` in neovim to install plugins manually.
-Besides, if you encounter the Mason's error message, please check its logs. The vast majority of cases are caused by the lack of some tools in your computer. For example, if dotnet LSP cannot be installed, it is likely due to a lack of its JDK.
+Besides, if you encounter the Mason's error message, please check its logs. The vast majority of cases are caused by the lack of some tools in your computer. For example, if dotnet LSP cannot be installed, it is likely due to a lack of its SDK.
 
 
 
