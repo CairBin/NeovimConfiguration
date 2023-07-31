@@ -21,11 +21,13 @@ require("mason-lspconfig").setup({
     "csharp_ls",
     "cssls",
     "bashls",
-    "jsonld",
-    "java_language_server",
+    "jsonls",
+    "jdtls",
     "tsserver",
     "eslint",
     "yamlls",
+    "ltex",
+    "grammarly"
   },
 })
 
@@ -75,11 +77,11 @@ require("lspconfig").bashls.setup{
   capabilities = capabilities,
 }
 
-require("lspconfig").jsonld.setup{
+require("lspconfig").jsonls.setup{
   capabilities = capabilities,
 }
 
-require("lspconfig").java_language_server.setup{
+require("lspconfig").jdtls.setup{
   capabilities = capabilities,
 }
 
@@ -94,3 +96,13 @@ require("lspconfig").eslint.setup{
 require("lspconfig").yamlls.setup{
   capabilities = capabilities,
 }
+
+require("lspconfig").ltex.setup{
+  capabilities = capabilities,
+}
+
+require("lspconfig").grammarly.setup{
+  capabilities = capabilities,
+}
+
+
